@@ -1,4 +1,4 @@
-FROM node:14.15.4-alpine3.10 AS builder
+FROM node AS builder
 WORKDIR /opt/front
 COPY . .
 RUN npm install
