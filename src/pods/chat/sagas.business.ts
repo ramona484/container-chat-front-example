@@ -2,7 +2,7 @@ import { createSocket, SocketDescriptor } from './api';
 
 export const establishRoomSocketConnection = (nickname: string, room: string) => {
   // TODO: move this to env variable
-  const baseUrl = 'http://localhost:3000';
+  const baseUrl = '';
 
   const socketParams: SocketDescriptor = {
     url: baseUrl,
